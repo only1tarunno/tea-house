@@ -35,7 +35,7 @@
   <div class="hero min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <div class="flex-1">
-        <img src="/images/banner.png"/>
+        <img src="images/banner.png"/>
         <div class="flex items-center gap-4 w-72 py-4 px-6 rounded-lg shadow-lg bg-white relative z-50 -mt-24 mx-auto lg:ml-8">
           <div class="">
             <span class="text-5xl text-[#FFDC64]"><i class="fa-solid fa-star w-full"></i></span>
@@ -50,12 +50,12 @@
         <h1 class="text-7xl text-p-color font-extrabold">It's good <br>
           tea time at The <br> Tea House</h1>
         <p class="py-6 text-base text-text">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-        <button class="btn btn-primary">Explore More</button>
+        <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#FF0200] border-none text-white">Explore More</button>
       </div>
     </div>
   </div>
 </header>
-<main class="container mx-auto px-5 md:mx-auto mb-16">
+<main class="container mx-auto px-5 md:px-0 md:mx-auto mb-16">
   <!-- feature section  -->
   <section class="text-center mb-20">
     <h2 class="text-4xl md:text-5xl text-p-color font-extrabold mb-5">Our Featured Products</h2>
@@ -63,7 +63,7 @@
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
       <div class="card bg-gradient-to-b from-[#F4F4F4] to-gar">
         <figure class="px-10 pt-10">
-          <img src="/images/tea-1.png" alt="Shoes" class="rounded-xl" />
+          <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="card-body items-center text-center">
           <h2 class="card-title text-p-color font-extrabold">Milk Tea</h2>
@@ -74,7 +74,7 @@
       </div>
       <div class="card bg-gradient-to-b from-[#F4F4F4] to-gar">
         <figure class="px-10 pt-10">
-          <img src="/images/tea-2.png" alt="Shoes" class="rounded-xl" />
+          <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="card-body items-center text-center">
           <h2 class="card-title text-p-color font-extrabold">Black Tea</h2>
@@ -85,7 +85,7 @@
       </div>
       <div class="card bg-gradient-to-b from-[#F4F4F4] to-gar">
         <figure class="px-10 pt-10">
-          <img src="/images/tea-3.png" alt="Shoes" class="rounded-xl" />
+          <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="card-body items-center text-center">
           <h2 class="card-title text-p-color font-extrabold">Lemon Tea</h2>
@@ -96,7 +96,7 @@
       </div>
       <div class="card bg-gradient-to-b from-[#F4F4F4] to-gar">
         <figure class="px-10 pt-10">
-          <img src="/images/tea-4.png" alt="Shoes" class="rounded-xl" />
+          <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="card-body items-center text-center">
           <h2 class="card-title text-p-color font-extrabold">Green Tea</h2>
@@ -136,23 +136,97 @@
   <!-- supper section start here  -->
   <section class="mb-16 bg-gradient-to-r from-[#FF8938] to-[#FF0200] p-5 md:p-10 lg:p-20 rounded-lg flex flex-col md:flex-row items-center gap-5 lg:gap-16">
     <div class="flex-1 space-y-4">
-      <h2 class="text-4xl md:text-5xl text-white font-extrabold mb-5">Our Featured Products</h2>
+      <h2 class="text-4xl md:text-5xl text-white font-extrabold mb-5">Meet Our Super <br> Clients</h2>
       <p class="text-base text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
       <button class="btn btn-primary bg-white text-[#F00] border-white">Show All</button>
     </div>
-    <div class="flex-1">
-      <!-- 1st review  -->
-      <div class="p-10 bg-white rounded-lg space-y-3 relative">
+    <div class="flex-1 relative">
+      <!-- top review  -->
+      <div class="p-10 opacity-50 bg-white rounded-lg space-y-3 relative mb-16 lg:block hidden">
         <div class="lg:absolute lg:-left-5 lg:-top-5">
           <img src="images/client.png" class="rounded-full ring-4 ring-white" alt="">
         </div>
         <p class="text-base text-text pb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         <h3 class="text-xl text-p-color font-extrabold">Ilham Yuda</h3>
         <p class="text-base text-text font-medium">Businessman</p>
+        <img src="images/circles.png" class="ml-auto" alt="">
+      </div>
+      <!-- 1st review  -->
+      <div class="p-10 lg:max-w-[635px] bg-white rounded-lg space-y-3 lg:absolute lg:top-40 z-50 lg:-left-8">
+        <div class="lg:absolute lg:-left-5 lg:-top-5">
+          <img src="images/client.png" class="rounded-full ring-4 ring-white" alt="">
+        </div>
+        <p class="text-base text-text pb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <h3 class="text-xl text-p-color font-extrabold">Ilham Yuda</h3>
+        <p class="text-base text-text font-medium">Businessman</p>
+        <img src="images/circles.png" class="ml-auto" alt="">
+      </div>
+      <!-- bottom review  -->
+      <div class="p-10 opacity-50 bg-white rounded-lg space-y-3 relative lg:block hidden">
+        <div class="lg:absolute lg:-left-5 lg:-top-5">
+          <img src="images/client.png" class="rounded-full ring-4 ring-white" alt="">
+        </div>
+        <p class="text-base text-text pb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <h3 class="text-xl text-p-color font-extrabold">Ilham Yuda</h3>
+        <p class="text-base text-text font-medium">Businessman</p>
+        <img src="images/circles.png" class="ml-auto" alt="">
       </div>
     </div>
   </section>
 </main>
+<!-- footer  -->
+<footer class="bg-gradient-to-r from-[#FFF4EC] to-[#FFFFFE] py-24">
+  <div class="container mx-auto px-5 md:px-0 md:mx-auto">
+    <!-- top footer  -->
+    <div class="flex flex-col md:flex-row gap-4 justify-between">
+      <div class="flex-1">
+        <img src="images/cup.png" class="w-[62px]" alt="">
+      </div>
+      <div class="flex-1 flex justify-between md:justify-end items-center">
+        <h5 class="text-[#494949] font-semibold text-xl w-1/2 md:w-[225px] mr-2">Ready to get strated?</h5>
+        <a href="" class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#FF0200] border-none text-white">Get Started</a>
+      </div>
+    </div>
+    <!-- middle footer -->
+    <div class="footer py-10  text-base-content ">
+      <div>
+        <span class="footer-title">Services</span> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div>
+        <span class="footer-title">Company</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class="footer-title">Legal</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div> 
+      <div class="md:ml-auto">
+        <span class="footer-title">Newsletter</span> 
+        <div class="form-control w-80">
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class=" bg-transparent border-b-[1px] border-[#494949] outline-none py-6 w-full" /> 
+            <button class="btn btn-primary absolute top-0 right-0 h-auto w-auto bg-gradient-to-r from-[#FF8938] to-[#FF0200] border-none text-white rounded-full"><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bootom footer -->
+    <div class="footer footer-center p-4 text-base-content">
+      <div>
+        <p>© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
   
   
 
